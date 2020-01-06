@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter the String");
+	    String string_name=sc.nextLine();
+	    System.out.println("Enter the index");
+	    int index=sc.nextInt();
+	    char character_output=string_name.charAt(index);
+	    System.out.println(character_output);
+	}
+}
